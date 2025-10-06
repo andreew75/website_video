@@ -1,0 +1,113 @@
+.search {
+    display: flex;
+    margin: 20px 50px 0;
+    gap: 16px;
+}
+.search input {
+    border: none;
+    padding: 20px;
+    width: 100%;
+    color: #8a8b95;
+    font-size: 18px;
+
+.search input:focus {
+    outline: none;
+    border-bottom: 1px solid #8a8b95;
+    }
+
+}
+.search-button {
+    border: none;
+    border-radius: 5px;
+    background-color: #172e2e;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: background 0.3s ease;
+}
+.search-button:hover {
+    cursor: pointer;
+    background: #282c32;
+}
+
+.radio {
+    margin: 30px 10px 10px 40px;
+}
+
+.radio input {
+    width: 30px;
+}
+
+.radio label {
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.btn:hover:not(:disabled) {
+    /*background-color: #f5f6f6;*/
+    border: none;
+    font-size: 20px;
+}
+
+.btn:disabled {
+    /*background-color: #dcdce4;*/
+    cursor: not-allowed;
+    border: none;
+    font-size: 16px;
+}
+
+.btn {
+    border: none;
+    font-size: 16px;
+    color: #b2b2b8;
+}
+
+.page-numbers {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.page-btn {
+    padding: 6px 12px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 14px;
+    min-width: 40px;
+}
+
+.page-btn:hover {
+    background-color: #e9ecef;
+    border-color: #adb5bd;
+}
+
+.page-btn.active {
+    background-color: #0d242e;
+    color: white;
+    border-color: #0d242e;
+}
+
+.page-ellipsis {
+    padding: 6px 8px;
+    color: #6c757d;
+    font-size: 14px;
+}
+
+.page-info {
+    font-size: 14px;
+    color: #666;
+    margin-left: 15px;
+    font-weight: 500;
+}

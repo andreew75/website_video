@@ -1,0 +1,22 @@
+.header {
+    background: #0d242e;
+    padding: 30px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.header .wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right{
+    text-align: right;
+    color: #bdd8e3;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
